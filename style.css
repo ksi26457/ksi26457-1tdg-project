@@ -1,5 +1,5 @@
 div {
-    font-size: 70px;
+    font-size: 40px;
 }
 h1{
     text-align: center;
@@ -12,9 +12,17 @@ h1{
 }
 .container {
   display: flex;
-  flex-direction: right;
+  flex-direction: row;
 }
 img{
-  width: 50%;
+  width: 35%;
 }
 
+
+.home-container img{
+  width: 50%;
+}
+.home-container{
+  display: flex;
+  flex-direction: row;
+}
