@@ -12,7 +12,7 @@ h1{
 }
 .container {
   display: flex;
-  flex-direction: row;
+  flex-direction: right;
 }
 img{
   width: 50%;
