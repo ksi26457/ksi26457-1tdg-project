@@ -24,5 +24,22 @@ img{
   display: flex;
   flex-direction: row;
 }
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.navbar li {
+  float: left;
+}
+
+.navbar li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+}
+
 
 
