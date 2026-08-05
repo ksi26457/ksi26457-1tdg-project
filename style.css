@@ -4,9 +4,6 @@ div {
 h1{
     text-align: center;
   }
-.navbar{
-    text-align: center;
-  }
 .p1 {
     font-size: 50;
 }
@@ -40,6 +37,18 @@ img{
   text-align: center;
   padding: 14px 16px;
 }
-
-
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #3f965f;
+  display: flex;
+  justify-content: center;
+}
+.container {
+  gap: 20px;
+}
+.container img{
+  width: 33%;
+}
 
