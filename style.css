@@ -1,54 +1,53 @@
 div {
-    font-size: 40px;
+  font-size: 40px;
 }
 h1{
-    text-align: center;
-  }
+  text-align: center;
+}
 .p1 {
-    font-size: 50;
+  font-size: 50px;
 }
 .container {
-  display: flex;
-  flex-direction: row;
+display: flex;
+flex-direction: row;
 }
 img{
-  width: 35%;
+width: 35%;
 }
 .home-container img{
-  width: 50%;
+width: 50%;
 }
 .home-container{
-  display: flex;
-  flex-direction: row;
+display: flex;
+flex-direction: row;
 }
 .navbar ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
 }
 
 .navbar li {
-  float: left;
+float: left;
 }
 
 .navbar li a {
-  display: block;
-  text-align: center;
-  padding: 14px 16px;
+display: block;
+text-align: center;
+padding: 14px 16px;
 }
 .navbar ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  background-color: #3f965f;
-  display: flex;
-  justify-content: center;
+list-style-type: none;
+margin: 0;
+padding: 0;
+background-color: #3f965f;
+display: flex;
+justify-content: center;
 }
 .container {
-  gap: 20px;
+gap: 20px;
 }
 .container img{
-  width: 33%;
+width: 33%;
 }
-
