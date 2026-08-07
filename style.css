@@ -49,5 +49,21 @@ justify-content: center;
 gap: 20px;
 }
 .container img{
-width: 33%;
+  width: 33%;
+}
+.heading {
+  float: center;
+  }
+  
+.heading {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+}
+h1 {
+  margin: 0;
+  padding: 0;
+  background-color: #616caf;
+
+  justify-content: center;
 }
