@@ -58,11 +58,13 @@ gap: 20px;
 .heading {
   display: block;
   text-align: center;
-  padding: 14px 16px;
+  padding: 0 30%;
+  /* padding: first value top and bottom, second left and right */
 }
 h1 {
-  margin: 0;
-  padding: 0;
+  margin: 13%;
+  padding: 0%;
   background-color: #616caf;
   justify-content: center;
 }
+
