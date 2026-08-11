@@ -1,26 +1,4 @@
-div {
-  font-size: 40px;
-}
-h1{
-  text-align: center;
-}
-.p1 {
-  font-size: 50px;
-}
-.container {
-display: flex;
-flex-direction: row;
-}
-img{
-width: 35%;
-}
-.home-container img{
-width: 50%;
-}
-.home-container{
-display: flex;
-flex-direction: row;
-}
+/* ---all navbar css -----------------------------------------------*/
 .navbar ul {
 list-style-type: none;
 margin: 0;
@@ -45,26 +23,71 @@ background-color: #3f965f;
 display: flex;
 justify-content: center;
 }
+.navbar {
+  border: 8px solid black; /* Required for border-image */
+  padding: 0px;
+}
+
+/* ---- flexbox ----------------------------------------------------*/
+
+/* --- flexbox for homepage---------------------------------------- */
+.home-container img{
+  width: 50%;
+  }
+.home-container{
+  display: flex;
+  flex-direction: row;
+  }
+/* ---- flexbox ----------------------------------------------------*/
+
+/* --- flexbox for about page---------------------------------------- */
+.container {
+display: flex;
+flex-direction: row;
+}
 .container {
 gap: 20px;
 }
 .container img{
   width: 33%;
 }
-.heading {
-  float: center;
+
+/* ---- flexbox ----------------------------------------------------*/
+
+/*css for all pages*/
+div {
+  font-size: 40px;
+}
+.p1 {
+  font-size: 50px;
+}
+img{
+  width: 35%;
   }
-  
+/* ---- flexbox ----------------------------------------------------*/
+
+/*-----heading css -----------------------------------------*/
 .heading {
   display: block;
   text-align: center;
-  padding: 0 30%;
+  margin: 8px 30%;
   /* padding: first value top and bottom, second left and right */
+  border: 6px solid black; /* Required for border-image */
+  float: center;
 }
+/* ---- flexbox ----------------------------------------------------*/
+
+/*-----h1 css -------------------------------------------------*/
 h1 {
   margin: 13%;
   padding: 0%;
   background-color: #616caf;
   justify-content: center;
 }
+h1{
+  text-align: center;
+}
+/* ---- flexbox ----------------------------------------------------*/
+
+
 
