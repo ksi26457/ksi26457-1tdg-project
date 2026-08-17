@@ -115,4 +115,12 @@ h1{
   display: flex;
   text-align: center;
 }
-
+/* ---- flexbox ----------------------------------------------------*/
+/* -----h2 css -----------------------------------------------------*/
+h2 { display: block;
+text-align: center;
+margin: 8px 30%;
+/* padding: first value top and bottom, second left and right */
+border: 6px solid black; /* Required for border-image */
+background-color: #616caf;
+}
