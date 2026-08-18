@@ -87,6 +87,7 @@ h1{
   text-align: center;
 }
 /* ---- flexbox ----------------------------------------------------*/
+
 /* ------font-------------------------------------------------------*/
 .p1 {
   font-family: Arial, Helvetica, sans-serif;
@@ -98,36 +99,39 @@ h1{
   font-family: Arial, Helvetica, sans-serif;
 }
 /* ---- flexbox ----------------------------------------------------*/
+
 /* ----- link ------------------------------------------------------*/
 .link {
   font-size: 50px;
 
 }
 /* ---- flexbox ----------------------------------------------------*/
+
 /*------text-writing-------------------------------------------*/
 .text-writing {
   display: flex;
   flex-direction: row;
 }
 /* ---- flexbox ----------------------------------------------------*/
+
 /*------text-writing2-------------------------------------------*/
 .text-writing2 {
   display: flex;
   text-align: center;
 }
 /* ---- flexbox ----------------------------------------------------*/
+
 /* -----h2 css -----------------------------------------------------*/
 h2 { display: block;
 text-align: center;
 margin: 8px 30%;
+font-family: "Anton", sans-serif;
 /* padding: first value top and bottom, second left and right */
 border: 6px solid black; /* Required for border-image */
 background-color: #616caf;
 }
 /* ---- flexbox ----------------------------------------------------*/
+
 /*-----CSS font ----------------------------------------------------*/
-.anton-regular {
-  font-family: "Anton", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
+
+/* ---- flexbox ----------------------------------------------------*/
