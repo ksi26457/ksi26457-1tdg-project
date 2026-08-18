@@ -124,3 +124,10 @@ margin: 8px 30%;
 border: 6px solid black; /* Required for border-image */
 background-color: #616caf;
 }
+/* ---- flexbox ----------------------------------------------------*/
+/*-----CSS font ----------------------------------------------------*/
+.anton-regular {
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
