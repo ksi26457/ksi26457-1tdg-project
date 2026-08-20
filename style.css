@@ -1,54 +1,64 @@
 /* ---all navbar css -----------------------------------------------*/
 .navbar ul {
-list-style-type: none;
-margin: 0;
-padding: 0;
-overflow: hidden;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
 .navbar li {
-float: left;
+  float: left;
 }
 
 .navbar li a {
-display: block;
-text-align: center;
-padding: 14px 16px;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
 }
+
 .navbar ul {
-list-style-type: none;
-margin: 0;
-padding: 0;
-background-color: #3f965f;
-display: flex;
-justify-content: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #3f965f;
+  display: flex;
+  justify-content: center;
 }
+
 .navbar {
-  border: 8px solid black; /* Required for border-image */
+  border: 8px solid black;
+  /* Required for border-image */
   padding: 0px;
 }
 
 /* ---- flexbox ----------------------------------------------------*/
 
 /* --- flexbox for homepage---------------------------------------- */
-.home-container img{
+.home-container img {
   width: 50%;
-  }
-.home-container{
+}
+
+.home-container {
   display: flex;
   flex-direction: row;
-  }
+}
+
 /* ---- flexbox ----------------------------------------------------*/
 
 /* --- flexbox for about page---------------------------------------- */
 .container {
-display: flex;
-flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
+
 .container {
-gap: 20px;
+  gap: 20px;
 }
-.container img{
+
+.container img {
+  width: 33%;
+}
+.container p {
   width: 33%;
 }
 
@@ -58,12 +68,15 @@ gap: 20px;
 div {
   font-size: 40px;
 }
+
 .p1 {
   font-size: 50px;
 }
-img{
+
+img {
   width: 35%;
-  }
+}
+
 /* ---- flexbox ----------------------------------------------------*/
 
 /*-----heading css -----------------------------------------*/
@@ -72,8 +85,10 @@ img{
   text-align: center;
   margin: 8px 30%;
   /* padding: first value top and bottom, second left and right */
-  border: 6px solid black; /* Required for border-image */
+  border: 6px solid black;
+  /* Required for border-image */
 }
+
 /* ---- flexbox ----------------------------------------------------*/
 
 /*-----h1 css -------------------------------------------------*/
@@ -83,21 +98,26 @@ h1 {
   background-color: #616caf;
   justify-content: center;
 }
-h1{
+
+h1 {
   text-align: center;
 }
+
 /* ---- flexbox ----------------------------------------------------*/
 
 /* ------font-------------------------------------------------------*/
 .p1 {
   font-family: Arial, Helvetica, sans-serif;
 }
+
 .heading {
   font-family: Arial, Helvetica, sans-serif;
 }
+
 .navbar {
   font-family: Arial, Helvetica, sans-serif;
 }
+
 /* ---- flexbox ----------------------------------------------------*/
 
 /* ----- link ------------------------------------------------------*/
@@ -105,6 +125,7 @@ h1{
   font-size: 50px;
 
 }
+
 /* ---- flexbox ----------------------------------------------------*/
 
 /*------text-writing-------------------------------------------*/
@@ -112,6 +133,7 @@ h1{
   display: flex;
   flex-direction: row;
 }
+
 /* ---- flexbox ----------------------------------------------------*/
 
 /*------text-writing2-------------------------------------------*/
@@ -119,19 +141,28 @@ h1{
   display: flex;
   text-align: center;
 }
+
 /* ---- flexbox ----------------------------------------------------*/
 
 /* -----h2 css -----------------------------------------------------*/
-h2 { display: block;
-text-align: center;
-margin: 8px 30%;
-font-family: "Anton", sans-serif;
-/* padding: first value top and bottom, second left and right */
-border: 6px solid black; /* Required for border-image */
-background-color: #616caf;
+h2 {
+  display: block;
+  text-align: center;
+  margin: 8px 30%;
+  /* padding: first value top and bottom, second left and right */
+  border: 6px solid black;
+  /* Required for border-image */
+  background-color: #616caf;
 }
+
 /* ---- flexbox ----------------------------------------------------*/
 
 /*-----CSS font ----------------------------------------------------*/
 
+.image-div img {
+  width: 100%;
+}
+.image p{
+  font-size: small;
+}
 /* ---- flexbox ----------------------------------------------------*/
